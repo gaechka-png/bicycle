@@ -1,0 +1,50 @@
+.footer {
+    background-color: $color3;
+
+    &__row {
+        display: flex;
+        padding: 100px 0;
+        align-items: center;
+    }
+
+    &__column {
+        flex: 0 1 33.333%;
+    }
+
+    &__text {
+        color: $color4;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 18px;
+        font-size: 16px;
+        p {
+            &:first-child {
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social {
+        &__linck {
+            margin: 0 7.5px;
+        }
+    }
+    .dev {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &__text {
+            color: $color4;
+            font-size: 14px;
+            font-style: italic;
+            padding-right: 9px;
+        }
+    }
+}
